@@ -11,7 +11,7 @@
     Om användaren har köpt mindre än 10 koppar så uppnår den "Brons" status. 
     Detta ska skrivas ut för användaren.
 
-    Om användaren har köpt 10 koppar men mindre än 30 koppar så uppnår den "Silver" status. 
+    Om användaren har köpt 10 koppar eller mer men mindre än 30 koppar så uppnår den "Silver" status. 
     Detta ska skrivas ut för användaren.
 
     Om användaren har köpt 30 koppar eller mer så uppnår den "Guld" status. 
@@ -24,7 +24,7 @@
     Lägg in: Dina transaktioner
     Du köpte 5 st Brygg Kaffe för 20 kr styck. Summa: 100
     
-    Du köpte 4 st Cappuchino för 30 kr styck. Summa: 120
+    Du köpte 4 st Cappuccino för 30 kr styck. Summa: 120
     
     Du köpte 10 st Latte för 40 kr styck. Summa: 400 -->
 
@@ -35,9 +35,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="grouptask.js"></script>
     <title>Coffee Shop</title>
 </head>
 <body>
+    <section id="navBar">
+        <label for="coffeeType">Välj kaffesort</label>
+        <select id="coffeeType">
+            <option value="coffee">Brygg Kaffe</option>
+            <option value="cappuccino">Cappuccino</option>
+            <option value="latte">Latte</option>
+        </select>
+        
+    </section>
+    <hr/>
+    <section id="yourTransactions">
+        <h1>Dina transktioner</h1>
+
+    </section>
+    
+
     
 </body>
 </html>
